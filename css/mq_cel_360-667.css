@@ -6,11 +6,6 @@ and (orientation: portrait) {
     html, body {
     }
 
-    .header {
-        width: 100vw;
-        height: 100vh;
-    }
-
     .header__video video {
         position: absolute;
         right: 0;
@@ -87,7 +82,7 @@ and (orientation: portrait) {
     .conteudo {
         height: 50%;
         width: 100%;
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: none;
     }
 
