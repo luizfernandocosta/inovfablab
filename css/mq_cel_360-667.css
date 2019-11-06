@@ -5,6 +5,7 @@ and (orientation: portrait) {
 
     .header {
         height: 100vh;
+        background-color: #222;
     }
 
     .header__video video {
