@@ -1,0 +1,31 @@
+/* ESTE MEDIA QUERY É GENÉRICO PARA NOTEBOOK */
+/* COMPATÍVEL COM A MAIORIA */
+/* MEDIA QUERY NOTEBOOK */
+@media only screen and (min-width : 1025px) and (max-width: 1366px) {
+    .logo {
+        height: 200px;
+        width: 200px;
+    }
+
+    .header__h1{
+        font-size: 3rem;
+        letter-spacing: 15px;
+    } 
+
+    .button {
+        padding: 10px;
+    }
+
+    .article {
+        font-size: 1.2rem;
+    }
+
+    .article__h3 {
+        font-size: 2rem;
+    }
+
+    .conteudo {
+        font-size: 1.2rem;
+    }
+  }
+  
