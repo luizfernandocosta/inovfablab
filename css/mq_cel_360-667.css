@@ -1,0 +1,152 @@
+@media screen
+and (min-width: 360px)
+and (max-width: 667px)
+and (orientation: portrait) {
+
+    html, body {
+    }
+
+    .header {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .header__video video {
+        position: absolute;
+        right: 0;
+        bottom: 1;
+        transform: translateX(calc((100% - 100vw) / 2));
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .header__h1 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    .header__botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .button {
+        padding: 5px;
+        font-size: 1rem;
+        margin: 5px;
+        width: 200px;
+    }
+
+    .header__maisinformacoes {
+        display: none;
+        overflow: hidden;
+    }
+
+    /* ----------- */
+
+    .main {
+        overflow: hidden;
+        height: 100%;
+    }           
+
+    .section__introducao {
+        overflow-y: hidden;
+    }
+
+    .section__overlay {
+        overflow-y: hidden;
+    }
+
+    .section__conteudo {
+        overflow-y: hidden;
+    }
+
+    .article {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .article__h3 {
+        font-size: 1.5rem;
+    }
+
+    .section__h1 {
+        font-size: 1.5rem;
+    } 
+
+    .fablab {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .conteudo {
+        height: 50%;
+        width: 100%;
+        font-size: 0.8rem;
+        padding: none;
+    }
+
+    .foto {
+        width: 100%;
+        height: 50%;
+        order: 2;
+        margin-top: 10px;
+    }
+
+    .inverte {
+        margin: 0px;
+        order: 1;
+    }
+
+    .social-media h3 {
+        font-size: 1rem;
+    }
+
+    .footer{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: none;
+        height: 350px;
+    }
+
+    .footer__contato{
+        order: 2;
+    }
+
+    .footer__contato h6 {
+        font-size: 1.5rem;
+    }
+
+    .footer__contato a {
+        font-size: 1.2rem;
+    }
+
+    .footer__localizacao{
+        order: 3;
+    }
+
+    .footer__localizacao span {
+        font-size: 1.5rem;
+    }
+
+    .footer__localizacao p {
+        font-size: 0.8rem;
+    }
+
+    .footer__social {
+        order: 1;
+    }
+
+    .svg img {
+        height: 30px;
+        width: 30px;
+    }
+}

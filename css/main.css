@@ -1,0 +1,299 @@
+/* ESTE CSS FOI FEITO PARA TELAS EM 1080p */
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Início do header */
+
+.header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+}
+
+.header__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header__video video {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header__overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #222;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.header__conteudo {
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+
+.header__h1 {
+    font-size: 5rem;
+    letter-spacing: 15px;
+}
+
+.button {
+    border-radius: 4px;
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+}
+
+.button--fabmanager {
+    background-color: rgba(206, 53, 56, 0.8);    
+}
+
+.button--fabmanager:hover {
+    background-color: #CE3538;
+}
+
+.button--ficha {
+    background-color: rgba(0, 129, 194, 0.85);
+}
+
+.button--ficha:hover {
+    background-color: #0081c2;
+}
+
+.header__maisinformacoes {
+    font-size: 4rem;
+}
+
+/* Fim do hedaer */
+
+/* Começo do main */
+
+.main {
+    overflow: hidden;
+    background-color: #222;
+    color: white;
+}
+
+/* Introdução do lab */
+
+.section__introducao {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../pic/fundo-laboratorio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section__overlay {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #0D47A1;
+    overflow: hidden;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.section__conteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article {
+    z-index: 3;
+    background-color: #222;
+    width: 80%;
+    align-self: center;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.article__h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.article p {
+    padding-top: 30px;
+}
+
+/* Fim da introdução */
+
+/* Conteúdo principal */
+
+.section__principal {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section__h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fablab {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.conteudo {
+    background-color: #0D47A1;
+    border-radius: 4px;
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.conteudo img {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.conteudo p {
+    margin-top: 20px;
+}
+
+.inverte {
+    order: 2;
+    margin-left: 10px;
+}
+
+.foto {
+    background-image: url("../pic/fundo-geral.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 70%;
+    border-radius: 4px;
+}
+
+.impressora3d {
+    background-image: url("../pic/fundo-impressora-3d.jpg");
+}
+
+.cortadora {
+    background-image: url("../pic/fundo-cortadora-laser.jpg");
+}
+
+
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h3 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* Fim do conteúdo */
+
+/* Fim do main */
+
+/* Começo do footer */
+
+.footer {
+    background-color: #0D47A1;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.footer__contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer  h6 {
+    font-size: 2rem;
+    align-self: center;
+}
+
+.footer__contato a {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.footer__localizacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo__unisanta{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.footer span {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer p {
+    font-size: 1.4rem;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+}
+
+.svg img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+/* Fim do footer */
